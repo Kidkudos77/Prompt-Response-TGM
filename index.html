@@ -3,36 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded Video with Closed Captions</title>
+    <title>Embedded Video</title>
 </head>
 <body>
     <div>
-        <h1>Embedded Video with Closed Captions</h1>
+        <h1>Embedded Video</h1>
         <div>
-            <!-- Replace this iframe with your provided iframe code -->
+            <!-- Your provided iframe code -->
             <iframe src="https://famu-my.sharepoint.com/personal/javonte1_carter_famu_edu/_layouts/15/embed.aspx?UniqueId=16825c70-d46b-4e30-8ca1-ce67696cc43a&nav=%7B%22playbackOptions%22%3A%7B%22startTimeInSeconds%22%3A0%7D%7D&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="Recording-20240713_162326.webm"></iframe>
         </div>
-        <div>
-            <button onclick="toggleCaptions()">Toggle Captions</button>
-        </div>
-        <div id="captionBox" style="display: none;">
-            <p id="captions">No captions available.</p>
-        </div>
     </div>
-
-    <!-- JavaScript for captions -->
-    <script>
-        function toggleCaptions() {
-            var captionBox = document.getElementById('captionBox');
-            var captions = document.getElementById('captions');
-            if (captionBox.style.display === 'none') {
-                captionBox.style.display = 'block';
-                // Replace with your actual captions text or API call to fetch captions
-                captions.innerText = 'Your closed captions text goes here.';
-            } else {
-                captionBox.style.display = 'none';
-            }
-        }
-    </script>
 </body>
 </html>
